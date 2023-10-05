@@ -1,0 +1,27 @@
+﻿@model PruebaYeisonLlanes.Models.Prioridades
+
+@{
+    ViewData["Title"] = "Eliminar Prioridad";
+}
+
+<h1>Eliminar Prioridad</h1>
+
+<h3>Desea Eliminar el registro?</h3>
+<div>
+    <h4>Prioridades</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Prioridad)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Prioridad)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdPrioridades" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-warning">Regresar</a>
+    </form>
+</div>

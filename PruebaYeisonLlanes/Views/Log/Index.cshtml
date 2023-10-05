@@ -1,0 +1,32 @@
+﻿@model IEnumerable<PruebaYeisonLlanes.Models.Logs>
+
+@{
+    ViewData["Title"] = "Auditoria";
+}
+
+<h1>Auditoria</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Detalle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Detalle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

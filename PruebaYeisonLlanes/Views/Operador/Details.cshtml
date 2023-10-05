@@ -1,0 +1,36 @@
+﻿@model PruebaYeisonLlanes.Models.Operadores
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h1>Detalles</h1>
+
+<div>
+    <h4>Operadores</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Operador)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Operador)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdPrioridadNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdPrioridadNavigation.IdPrioridades)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdUbicacionNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdUbicacionNavigation.IdUbicacion)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.IdOperador">Ediatr</a> |
+    <a asp-action="Index" class="btn btn-warning">Regresar</a>
+</div>

@@ -41,7 +41,7 @@ public partial class DbCalculadoraContext : DbContext
             entity.Property(e => e.Fecha)
                 .HasColumnType("date")
                 .HasColumnName("fecha");
-            entity.Property(e => e.Historico1).HasColumnName("historico");
+            entity.Property(e => e.Historico).HasColumnName("historico");
             entity.Property(e => e.IdUsuario).HasColumnName("idUsuario");
 
             entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Historicos)
@@ -66,7 +66,7 @@ public partial class DbCalculadoraContext : DbContext
             entity.HasKey(e => e.IdNumero);
 
             entity.Property(e => e.IdNumero).HasColumnName("idNumero");
-            entity.Property(e => e.Numero1).HasColumnName("numero");
+            entity.Property(e => e.Numero).HasColumnName("numero");
         });
 
         modelBuilder.Entity<Operadores>(entity =>
@@ -117,7 +117,7 @@ public partial class DbCalculadoraContext : DbContext
             entity.HasKey(e => e.IdUsuario);
 
             entity.Property(e => e.IdUsuario).HasColumnName("idUsuario");
-            entity.Property(e => e.Usuario1).HasColumnName("usuario");
+            entity.Property(e => e.Usuario).HasColumnName("usuario");
         });
 
         OnModelCreatingPartial(modelBuilder);

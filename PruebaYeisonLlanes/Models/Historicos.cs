@@ -7,7 +7,7 @@ public partial class Historicos
 {
     public int IdHistorico { get; set; }
 
-    public string? Historico1 { get; set; }
+    public string? Historico { get; set; }
 
     public DateTime? Fecha { get; set; }
 

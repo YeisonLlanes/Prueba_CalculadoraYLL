@@ -7,7 +7,7 @@ public partial class Usuarios
 {
     public int IdUsuario { get; set; }
 
-    public string? Usuario1 { get; set; }
+    public string? Usuario { get; set; }
 
     public virtual ICollection<Historicos> Historicos { get; set; } = new List<Historicos>();
 }
