@@ -5,27 +5,48 @@
 <div class="text-center">
     <h1 class="display-4">Calculadora</h1>
 </div>
-<div class="PantallaCalculadora">
+<div class="Contenedor">
+    <div class="calculadoraDiseño">
+        <div class="inputs">
+            <input id="operacion" type="text" value="">
+        </div>
+        <div>
+            <div id="btns" class="btns">
+                <div>
+                    <button id="BtnAC" class="bl"><span>AC</span></button>
+                    <button id="BtnOpPorcentaje" class=""><span>%</span></button>
+                    <button id="BtnOpMultiplicacion"><span>÷</span></button>
+                    <button id="BtnDivision" class="br"><span>x</span></button>
+                </div>
+                <div>
+                    <button id="Btn7" class="bl"><span>7</span></button>
+                    <button id="Btn8" class=""><span>8</span></button>
+                    <button id="Btn9"><span>9</span></button>
+                    <button id="BtnResta" class="br"><span>-</span></button>
+                </div>
+                <div>
+                    <button id="Btn4" class="bl"><span>4</span></button>
+                    <button id="Btn5" class=""><span>5</span></button>
+                    <button id="Btn6"><span>6</span></button>
+                    <button id="BtnSuma" class="br"><span>+</span></button>
+                </div>
+                <div>
+                    <button id="Btn1" class="bl"><span>1</span></button>
+                    <button id="Btn2" class=""><span>2</span></button>
+                    <button id="Btn3"><span>3</span></button>
+                    <p>
+                        <button id="BtnResultado" class="op">=</button>
+                    </p>
+                </div>
+                <div class="btnFinal">
+                    <button id="Btn01" class="bl"><span>.</span></button>
+                    <button id="Btn0" class=""><span>0</span></button>
+                    <button id="Btn02"><span></span>Del</button>
+                    <button id="Btn03"><span></span></button>
+                </div>
+            </div>
+        </div>
 
-</div>
-<div>
-    <div class="calculadora">
-        <button class="operador" data-action="adicion">+</button>
-        <button class="operador" data-action="subtract">-</button>
-        <button class="operador" data-action="multiply">&times;</button>
-        <button class="operador" data-action="divide">÷</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>0</button>
-        <button data-action="decimal">.</button>
-        <button data-action="clear">AC</button>
-        <button class="key--equal" data-action="calculate">=</button>
     </div>
+
 </div>

@@ -1,0 +1,166 @@
+﻿.Contenedor {
+    border-color: rgba(0,0,0,0.1);
+    border-image: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    min-width: 300px;
+    padding: 25px 23px 23px 20px;
+    resize: horizontal;
+    width: 650px;
+    color: #000;
+    background: -webkit-linear-gradient(top, #f2f2f2 4%, #ebebeb 15%, #e6e6e6 77%, #e0e0e0 100%);
+    background-color: #c0c0c0;
+    border: 1px solid rgba(54,64,79,0.75);
+    border-top-width: 0;
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    max-width: calc(100% - 340px)
+}
+
+.calculadoraDiseño {
+    width: 100%;
+    text-align:center;
+}
+
+.btns {
+    /*max-width: 650px;*/
+    user-select: none;
+    white-space: nowrap;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    padding-top:10px;
+}
+
+.btns button {
+    vertical-align: top;
+    display: inline-block;
+    width: 9.3%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: .25%;
+    line-height: 38px;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(to bottom, #fff 0, #e6e6e6 100%);
+    border-color: #c0c0c0 #7491a5 #7491a5 #c0c0c0;
+    border-image: none;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 1px 1px 0 rgba(0,0,0,0.05);
+    color: #414f5b;
+    cursor: pointer;
+    font-family: arial,verdana;
+    font-style: normal;
+    resize: none;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #fff;
+    white-space: nowrap;
+    font-size: 19pt;
+    font-weight: bold;
+    padding-bottom: 2px
+}
+
+div.inputs {
+    position: inherit;
+    height: 105px;
+    /*padding-left: 16%;*/
+}
+
+div.inputs input#input {
+    background-color: transparent
+}
+
+div.inputs input#operacion {
+    color: #bbb;
+    height: inherit;
+    font-size: x-large;
+    border: double;
+    border-radius: 10px;
+}
+
+.btns .br {
+    margin-right: .75%
+}
+
+.btns .bl {
+    margin-left: .75%
+}
+
+.btns p {
+    vertical-align: top;
+    display: inline-block;
+    width: 9.3%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    height: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: .25%;
+    margin-left: .25%;
+    line-height: 38px;
+    text-align: center;
+    position: relative;
+    background: #fcfcfc;
+    background: -moz-linear-gradient(top, #fff 0, #e6e6e6 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(100%, #e6e6e6));
+    background: -webkit-linear-gradient(top, #fff 0, #e6e6e6 100%);
+    background: -o-linear-gradient(top, #fff 0, #e6e6e6 100%);
+    background: -ms-linear-gradient(top, #fff 0, #e6e6e6 100%);
+    background: linear-gradient(to bottom, #fff 0, #e6e6e6 100%);
+    background: none;
+    border-color: #c0c0c0 #7491a5 #7491a5 #c0c0c0;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 1px 1px 0 rgba(0,0,0,0.05);
+    box-shadow: none;
+    color: #414f5b;
+    cursor: pointer;
+    font-family: arial,verdana;
+    font-style: normal;
+    resize: none;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #fff;
+    white-space: nowrap;
+    font-size: 19pt;
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-bottom: 0;
+    border: none;
+    z-index: 0
+}
+
+.btns #BtnResultado {
+    height: 100px;
+    line-height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    font-size: 23pt;
+    font-family: sans-serif;
+    z-index: 1;
+}
+
+.btns .op {
+    font-family: Tahoma,verdana;
+    font-size: 19pt;
+    line-height: 36px
+}
+
+button#Btn03 {
+    visibility: hidden;
+}

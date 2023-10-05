@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/wgn2IAKRtG3vsMx6AY51KFEDhtBDWz6/izaLYGOyQ4=",
+  "Hash": "HDUDDo1C/mUTu2Hx5zsG0xwCjwW4AwClmEn1C4g8tzU=",
   "Source": "PruebaYeisonLlanes",
   "BasePath": "_content/PruebaYeisonLlanes",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PruebaYeisonLlanes.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\css\\calculadora.css",
+      "SourceId": "PruebaYeisonLlanes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\",
+      "BasePath": "_content/PruebaYeisonLlanes",
+      "RelativePath": "css/calculadora.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\calculadora.css"
     },
     {
       "Identity": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\css\\site.css",
