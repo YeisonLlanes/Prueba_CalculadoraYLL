@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection.Metadata;
 using Microsoft.EntityFrameworkCore;
 
 namespace PruebaYeisonLlanes.Models;
@@ -29,10 +30,15 @@ public partial class DbCalculadoraContext : DbContext
 
     public virtual DbSet<Usuarios> Usuarios { get; set; }
 
+   public virtual DbSet<GetHistoricos> GetHistoricos { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Historicos>().ToTable(tb => tb.HasTrigger("Historicos_Insert"));
+        modelBuilder.Entity<Historicos>().ToTable(tb => tb.HasTrigger("Historicos_Delete"));
+
         modelBuilder.Entity<Historicos>(entity =>
         {
             entity.HasKey(e => e.IdHistorico);

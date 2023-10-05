@@ -16,7 +16,7 @@
                 @Html.DisplayNameFor(model => model.Fecha)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdUsuarioNavigation)
+                @Html.DisplayNameFor(model => model.IdUsuario)
             </th>
             <th></th>
         </tr>
@@ -31,10 +31,10 @@
                 @Html.DisplayFor(modelItem => item.Fecha)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdUsuarioNavigation.IdUsuario)
+                    @Html.DisplayFor(modelItem => item.IdUsuario)
             </td>
             <td>
-                <a asp-action="Eliminar" class="btn btn-warning" asp-route-id="@item.IdHistorico">Eliminar</a>
+                <a asp-action="delete" class="btn btn-warning" asp-route-id="@item.IdHistorico">Eliminar</a>
             </td>
         </tr>
 }

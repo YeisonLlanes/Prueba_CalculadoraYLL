@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\img\\back.jpg",
+      "PackagePath": "staticwebassets\\img\\back.jpg"
+    },
+    {
       "Id": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

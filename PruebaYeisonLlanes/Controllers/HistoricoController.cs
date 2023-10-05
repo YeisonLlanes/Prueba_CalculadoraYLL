@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using PruebaYeisonLlanes.Models;
 
@@ -21,6 +22,7 @@ namespace PruebaYeisonLlanes.Controllers
         // GET: Historico
         public async Task<IActionResult> Index()
         {
+  
             var dbCalculadoraContext = _context.Historicos.Include(h => h.IdUsuarioNavigation);
             return View(await dbCalculadoraContext.ToListAsync());
         }
