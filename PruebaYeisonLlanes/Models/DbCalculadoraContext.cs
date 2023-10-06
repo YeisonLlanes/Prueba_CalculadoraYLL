@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection.Metadata;
 using Microsoft.EntityFrameworkCore;
 
 namespace PruebaYeisonLlanes.Models;
@@ -29,10 +30,15 @@ public partial class DbCalculadoraContext : DbContext
 
     public virtual DbSet<Usuarios> Usuarios { get; set; }
 
+   public virtual DbSet<GetHistoricos> GetHistoricos { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Historicos>().ToTable(tb => tb.HasTrigger("Historicos_Insert"));
+        modelBuilder.Entity<Historicos>().ToTable(tb => tb.HasTrigger("Historicos_Delete"));
+
         modelBuilder.Entity<Historicos>(entity =>
         {
             entity.HasKey(e => e.IdHistorico);
@@ -41,7 +47,7 @@ public partial class DbCalculadoraContext : DbContext
             entity.Property(e => e.Fecha)
                 .HasColumnType("date")
                 .HasColumnName("fecha");
-            entity.Property(e => e.Historico1).HasColumnName("historico");
+            entity.Property(e => e.Historico).HasColumnName("historico");
             entity.Property(e => e.IdUsuario).HasColumnName("idUsuario");
 
             entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Historicos)
@@ -66,7 +72,7 @@ public partial class DbCalculadoraContext : DbContext
             entity.HasKey(e => e.IdNumero);
 
             entity.Property(e => e.IdNumero).HasColumnName("idNumero");
-            entity.Property(e => e.Numero1).HasColumnName("numero");
+            entity.Property(e => e.Numero).HasColumnName("numero");
         });
 
         modelBuilder.Entity<Operadores>(entity =>
@@ -117,7 +123,7 @@ public partial class DbCalculadoraContext : DbContext
             entity.HasKey(e => e.IdUsuario);
 
             entity.Property(e => e.IdUsuario).HasColumnName("idUsuario");
-            entity.Property(e => e.Usuario1).HasColumnName("usuario");
+            entity.Property(e => e.Usuario).HasColumnName("usuario");
         });
 
         OnModelCreatingPartial(modelBuilder);

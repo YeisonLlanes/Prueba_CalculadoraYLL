@@ -1,0 +1,42 @@
+﻿@model IEnumerable<PruebaYeisonLlanes.Models.Historicos>
+
+@{
+    ViewData["Title"] = "Historico Operaciones";
+}
+
+<h1>Historico Operaciones</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Historico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdUsuario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Historico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.IdUsuario)
+            </td>
+            <td>
+                <a asp-action="delete" class="btn btn-warning" asp-route-id="@item.IdHistorico">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

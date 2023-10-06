@@ -1,0 +1,35 @@
+﻿@model IEnumerable<PruebaYeisonLlanes.Models.Ubicaciones>
+
+@{
+    ViewData["Title"] = "Ubicaciones";
+}
+
+<h1>Ubicaciones</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Crear Nueva Ubicacion</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ubicacion)
+            </th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ubicacion)
+            </td>
+            <td>
+                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.IdUbicacion">Editar</a> |
+                    <a asp-action="Details" class="btn btn-primary" asp-route-id="@item.IdUbicacion">Detalles</a> |
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.IdUbicacion">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

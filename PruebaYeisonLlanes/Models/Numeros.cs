@@ -7,5 +7,5 @@ public partial class Numeros
 {
     public int IdNumero { get; set; }
 
-    public byte? Numero1 { get; set; }
+    public byte? Numero { get; set; }
 }

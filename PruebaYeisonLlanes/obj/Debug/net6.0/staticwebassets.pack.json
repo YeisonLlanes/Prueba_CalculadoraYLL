@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\PruebaYeisonLlanes.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\css\\calculadora.css",
+      "PackagePath": "staticwebassets\\css\\calculadora.css"
+    },
+    {
       "Id": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\docs\\Manual.pdf",
+      "PackagePath": "staticwebassets\\docs\\Manual.pdf"
+    },
+    {
       "Id": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\img\\back.jpg",
+      "PackagePath": "staticwebassets\\img\\back.jpg"
     },
     {
       "Id": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\js\\site.js",

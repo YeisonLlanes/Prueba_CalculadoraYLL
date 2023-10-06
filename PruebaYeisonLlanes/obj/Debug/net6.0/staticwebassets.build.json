@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VJsRnMrUNQHx/ZS3sT+Aoz6DeeBHT7QA/aY0hqeJ834=",
+  "Hash": "jRYV0qr1D0ay6qr/q3bujM3eiGnxyfFiTGw6Ams6+EQ=",
   "Source": "PruebaYeisonLlanes",
   "BasePath": "_content/PruebaYeisonLlanes",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PruebaYeisonLlanes.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\css\\calculadora.css",
+      "SourceId": "PruebaYeisonLlanes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\",
+      "BasePath": "_content/PruebaYeisonLlanes",
+      "RelativePath": "css/calculadora.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\calculadora.css"
+    },
+    {
       "Identity": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\css\\site.css",
       "SourceId": "PruebaYeisonLlanes",
       "SourceType": "Discovered",
@@ -68,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\docs\\Manual.pdf",
+      "SourceId": "PruebaYeisonLlanes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\",
+      "BasePath": "_content/PruebaYeisonLlanes",
+      "RelativePath": "docs/Manual.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\docs\\Manual.pdf"
+    },
+    {
       "Identity": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\favicon.ico",
       "SourceId": "PruebaYeisonLlanes",
       "SourceType": "Discovered",
@@ -83,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\img\\back.jpg",
+      "SourceId": "PruebaYeisonLlanes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\",
+      "BasePath": "_content/PruebaYeisonLlanes",
+      "RelativePath": "img/back.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\back.jpg"
     },
     {
       "Identity": "C:\\Users\\Jay\\Documents\\Proyectos_Desarrollo\\Trabajo\\PruebaCalculadora\\PruebaYeisonLlanes\\PruebaYeisonLlanes\\wwwroot\\js\\site.js",

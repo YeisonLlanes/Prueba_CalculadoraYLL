@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Jay\Documents\Proyectos_Desarrollo\Trabajo\PruebaCalculadora\PruebaYeisonLlanes\PruebaYeisonLlanes
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Historico/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWNvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Historico/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWNvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Historico/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWNvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Historico/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWNvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Historico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWNvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,12 +44,132 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Log/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Log/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Log/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Log/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Log/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Numero/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVtZXJvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Numero/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVtZXJvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Numero/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVtZXJvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Numero/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVtZXJvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Numero/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVtZXJvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Operador/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFkb3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Operador/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFkb3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Operador/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFkb3JcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Operador/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFkb3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Operador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFkb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Prioridad/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpb3JpZGFkXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Prioridad/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpb3JpZGFkXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Prioridad/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpb3JpZGFkXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Prioridad/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpb3JpZGFkXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Prioridad/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpb3JpZGFkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Ubicacion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWJpY2FjaW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Ubicacion/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWJpY2FjaW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Ubicacion/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWJpY2FjaW9uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Ubicacion/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWJpY2FjaW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Ubicacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWJpY2FjaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Usuario/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jay/Documents/Proyectos_Desarrollo/Trabajo/PruebaCalculadora/PruebaYeisonLlanes/PruebaYeisonLlanes/Views/_ViewImports.cshtml]

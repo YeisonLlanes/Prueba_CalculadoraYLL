@@ -1,0 +1,27 @@
+﻿@model PruebaYeisonLlanes.Models.Numeros
+
+@{
+    ViewData["Title"] = "Eliminar Numero";
+}
+
+<h1>Eliminar Numero</h1>
+
+<h3>Desea Eliminar el registro?</h3>
+<div>
+    <h4>Numeros</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Numero)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Numero)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdNumero" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-warning">Regresar</a>
+    </form>
+</div>

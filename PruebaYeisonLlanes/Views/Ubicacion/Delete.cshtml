@@ -1,0 +1,27 @@
+﻿@model PruebaYeisonLlanes.Models.Ubicaciones
+
+@{
+    ViewData["Title"] = "Eliminar Ubicacion";
+}
+
+<h1>Eliminar Ubicacion</h1>
+
+<h3>Desea Eliminar el registro?</h3>
+<div>
+    <h4>Ubicaciones</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ubicacion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ubicacion)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdUbicacion" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-warning">Regresar</a>
+    </form>
+</div>
