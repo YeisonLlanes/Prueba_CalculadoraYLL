@@ -164,3 +164,7 @@ div.inputs input#operacion {
 button#Btn03 {
     visibility: hidden;
 }
+
+.pdf {
+    height: 800px;
+}
